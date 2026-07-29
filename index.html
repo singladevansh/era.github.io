@@ -67,6 +67,22 @@
         .social-links a { text-decoration: none; font-size: 0.7rem; color: var(--text-main); font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; transition: var(--transition); opacity: 0.7; }
         .social-links a:hover { opacity: 1; color: var(--accent); }
 
+        /* --- HIGHLIGHTED LINK (Equity Research Desk) --- */
+        a.nav-new { color: var(--accent) !important; opacity: 1 !important; }
+        .badge-new {
+            display: inline-block;
+            background: var(--accent);
+            color: #fff;
+            font-size: 0.55rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 1px 6px;
+            border-radius: 3px;
+            margin-left: 6px;
+            vertical-align: middle;
+        }
+
         /* --- SECTION TITLES --- */
         .section-title { margin-bottom: 25px; }
         .section-title h2 { font-size: 1.8rem; margin-top: 5px; }
@@ -128,6 +144,10 @@
         }
         .cta-button:hover { background-color: #6d4627; transform: translateY(-2px); }
 
+        /* --- EQUITY RESEARCH DESK INTRO --- */
+        .desk-section p { font-size: 0.95rem; color: var(--text-dim); max-width: 700px; margin: 0 0 16px; font-weight: 400; text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+        .desk-section a.inline-link { color: var(--accent); font-weight: 600; }
+
         @media (max-width: 768px) {
             .hero { flex-direction: column; align-items: center; text-align: center; gap: 0; padding-top: 80px; }
             .profile-container { margin-bottom: 15px; }
@@ -147,9 +167,10 @@
             <a href="#" class="logo">DEVANSH SINGLA</a>
             <div class="nav-links">
                 <a href="#experience">Experience</a>
+                <a href="https://singladevansh.github.io/equityresearchdesk/" target="_blank" class="nav-new">Equity Research Desk<span class="badge-new">New</span></a>
                 <a href="#research">Equity Research Reports</a>
                 <a href="#blog">Latest Blogs</a>
-                <a href="mailto:singladevansh.work@gmail.com">Contact</a>
+                <a href="mailto:cadevanshsingla@gmail.com">Contact</a>
             </div>
         </div>
     </nav>
@@ -167,11 +188,24 @@
                 <div class="social-links">
                     
                     <a href="https://linkedin.com/in/devanshsingla/" target="_blank">LinkedIn</a>
-                    <a href="mailto:singladevansh.work@gmail.com">Contact</a>
+                    <a href="mailto:cadevanshsingla@gmail.com">Contact</a>
                     <a href="http://ignitingsparkswithdevansh.blogspot.com/" target="_blank">Blog</a>
                     <a href="https://github.com/singladevansh" target="_blank">GitHub</a>
                     <a href="https://instagram.com/singladevansh" target="_blank">Instagram</a>
+                    <a href="https://singladevansh.github.io/equityresearchdesk/" target="_blank" class="nav-new">Equity Research Desk<span class="badge-new">New</span></a>
                 </div>
+            </div>
+        </section>
+
+        <section id="ai-desk">
+            <div class="section-title">
+                <span class="mono">Featured Project</span>
+                <h2>Equity Research Desk</h2>
+            </div>
+            <div class="desk-section">
+                <p>The Equity Research Desk aims to do in real time what an analyst does manually: take a single company, fix its industry scope, and build a full eleven-section industry register — sizing, segmentation, competitive landscape, Porter's, value chain and closing view — with each section informed by the ones before it.</p>
+                <p>This is the working prototype of that idea, running on a basic model without live data; the full build grounds every number in filings and primary sources. If you're a recruiter, or you'd like to see the full working desk, write to me at <a href="mailto:cadevanshsingla@gmail.com" class="inline-link">cadevanshsingla@gmail.com</a>.</p>
+                <a href="https://singladevansh.github.io/equityresearchdesk/" target="_blank" class="cta-button">Explore the Equity Research Desk</a>
             </div>
         </section>
 
